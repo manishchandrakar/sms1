@@ -1,0 +1,82 @@
+
+* student 
+
+Table
+Data
+Indexes
+Model
+Constraints
+Grants
+Statistics
+UI Defaults
+Triggers
+Dependencies
+SQL
+
+CREATE TABLE  "STUDENT" 
+   (	"NAME" VARCHAR2(20), 
+	"PASS" VARCHAR2(20), 
+	"RN" VARCHAR2(12), 
+	"ID" VARCHAR2(10), 
+	"MONO" VARCHAR2(30), 
+	"BRNCH" VARCHAR2(20), 
+	"10TH" VARCHAR2(30), 
+	"12TH" VARCHAR2(20), 
+	"DOB" VARCHAR2(20), 
+	"GENDER" VARCHAR2(30), 
+	"EMAIL" VARCHAR2(30)
+   )
+/
+
+
+
+* admin
+  
+Table
+Data
+Indexes
+Model
+Constraints
+Grants
+Statistics
+UI Defaults
+Triggers
+Dependencies
+SQL
+
+CREATE TABLE  "ADMIN" 
+   (	"ID" VARCHAR2(500), 
+	"PASS" VARCHAR2(500), 
+	"NAME" VARCHAR2(40)
+   )
+/
+ 
+
+
+
+ * teacher
+  
+   
+Table
+Data
+Indexes
+Model
+Constraints
+Grants
+Statistics
+UI Defaults
+Triggers
+Dependencies
+SQL
+
+CREATE TABLE  "TEACHER" 
+   (	"NAME" VARCHAR2(30), 
+	"PASS" VARCHAR2(30), 
+	"MONO" VARCHAR2(20), 
+	"DPT" VARCHAR2(30) NOT NULL ENABLE, 
+	"ID" VARCHAR2(30) NOT NULL ENABLE
+   )
+/
+
+
+ 
